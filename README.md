@@ -11,6 +11,16 @@ Move the paddle using A and D. Help the ball break all the bricks.
 
 ## Implementation
 
+-Replaced the ball and paddle with sprites downloaded from kenney.nl. Briefly highlight the ball and paddle when a collision occurs. Briefly flash the walls red if they are hit.
+
+- Adjusted the UI elements colors and fonts
+ 
+- Colored the bricks based on their point value
+ 
+- Added a particle emitter to the paddle and bricks. 
+
+-Emitted their respective particles when they experience a collision
+
 Built using Unity 2022.3.45f1
 
 ## References
@@ -27,4 +37,4 @@ Tweening, Screen Shake, Adding a face, Comet trail, Music and Sound, Shaders, et
 
 ## Created by 
 
-Nathan Mishler
+Leya Flenoy
